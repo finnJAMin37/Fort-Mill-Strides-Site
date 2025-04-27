@@ -1,34 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Fort Mill Strides</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Fort Mill Strides</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <style>
+    header img {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    header nav ul li a:hover {
+      color: #ff6600;
+    }
+
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .about-section {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .about-section h2 {
+      font-size: 32px;
+      color: #ff6600;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>About Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="donate.html">Donate</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <a href="index.html">
+      <img src="assets\images\Fort Mill Striders Logo.jpeg" alt="Fort Mill Strides Logo">
+    </a>
+    <h1>About Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="donate.html">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section class="about-section">
-            <h2>Our Mission</h2>
-            <p>At Fort Mill Strides, our mission is simple: to provide underprivileged kids with properly fitted running shoes, giving them the confidence to step forward in their journey.</p>
-        </section>
-    </main>
+  <main>
+    <section class="about-section">
+      <h2>Our Mission</h2>
+      <p>
+        At Fort Mill Strides, our mission is simple: to provide underprivileged kids with properly fitted running shoes,
+        giving them the confidence to step forward in their journey.
+      </p>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Fort Mill Strides. All rights reserved.</p>
-    </footer>
-    
-    <script src="assets/scripts/script.js"></script>
+  <footer>
+    <p>&copy; 2025 Fort Mill Strides. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/scripts/script.js"></script>
 </body>
 </html>

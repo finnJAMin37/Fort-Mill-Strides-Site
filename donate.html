@@ -1,35 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate | Fort Mill Strides</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate | Fort Mill Strides</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <style>
+    header img {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    header nav ul li a:hover {
+      color: #ff6600;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .donate-section {
+      text-align: center;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .donate-section h2 {
+      font-size: 32px;
+      color: #ff6600;
+      margin-bottom: 20px;
+    }
+
+    .donate-section p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .donate-button {
+      background-color: #ff6600;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .donate-button:hover {
+      background-color: #ff8533;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>Donate</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="donate.html">Donate</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <a href="index.html">
+      <img src="assets/images/Fort Mill Striders Logo.jpeg" alt="Fort Mill Strides Logo">
+    </a>
+    <h1>Donate</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="donate.html">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section class="donate-section">
-            <h2>Your Support Makes a Difference</h2>
-            <p>Help us provide shoes to kids in need. Every donation helps us make a step toward a better future for these kids.</p>
-            <button><a href="https://paypal.com">Donate Now</a></button>
-        </section>
-    </main>
+  <main>
+    <section class="donate-section">
+      <h2>Your Support Makes a Difference</h2>
+      <p>Help us provide shoes to kids in need. Every donation helps us make a step toward a better future for these kids.</p>
+      <a class="donate-button" href="https://paypal.me/FortMillStrides?country.x=US&locale.x=en_US" target="_blank">
+        Donate Now
+      </a>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Fort Mill Strides. All rights reserved.</p>
-    </footer>
-    
-    <script src="assets/scripts/script.js"></script>
+  <footer>
+    <p>&copy; 2025 Fort Mill Strides. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/scripts/script.js"></script>
 </body>
 </html>
